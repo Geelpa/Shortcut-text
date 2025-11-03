@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Atalhos de Texto</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h2>🧩 Atalhos de Texto</h2>
+
+    <form id="formAtalho" class="form">
+        <input id="codigo" type="text" placeholder="Código (ex: /c1)" required />
+        <textarea id="conteudo" placeholder="Conteúdo do atalho" required></textarea>
+        <button id="btnSalvar" type="submit">Salvar</button>
+    </form>
+
+    <h3>Atalhos Salvos</h3>
+    <ul id="lista"></ul>
+
+    <footer>
+        <small>Dica: use /atalho e ele será expandido automaticamente</small>
+    </footer>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
